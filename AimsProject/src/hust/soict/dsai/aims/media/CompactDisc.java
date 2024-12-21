@@ -51,12 +51,8 @@ public class CompactDisc extends Disc implements Playable{
             System.out.println("The track " + track.getTitle() + " has been added to the tracklist of " + this.getTitle());
         }
 
-//        if (tracks.contains(track)) {
-//            System.out.println("Track \"" + track.getTitle() + "\" already exists in the list.");
-//        } else {
-//            tracks.add(track);
-//            System.out.println("Track \"" + track.getTitle() + "\" has been added.");
-//        }
+
+
     }
 
     public void removeTrack(Track track) throws NonExistingItemException {
@@ -116,13 +112,7 @@ public class CompactDisc extends Disc implements Playable{
         }
 
 
-//		// TODO Auto-generated method stub
-//        System.out.println("Playing CompactDisc: " + this.getTitle());
-//        System.out.println("Artist: " + this.getArtist());
-//        System.out.println("Tracks:");
-//        for (Track track : tracks) {
-//            track.play();
-//        }
+
 	}
 	
     public String toString() {

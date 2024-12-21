@@ -47,11 +47,7 @@ public class Book extends Media{
         this.authors.add(authorName);
         System.out.println(authorName + " has been added to the " + this.getTitle() + " list of authors.");
 
-//        if (!authors.contains(authorName)) {
-//            authors.add(authorName);
-//        } else {
-//            System.out.println("Author already exists: " + authorName);
-//        }
+
     }
 
     public void removeAuthor(String authorName) {
