@@ -1,0 +1,5 @@
+The Aims class must be updated to handle any exceptions generated when the play() methods are called.
+What happens when you don’t update for them to catch?
+Nếu lớp Aims không được điều chỉnh để xử lý ngoại lệ khi gọi phương thức play(), chương trình có thể gặp lỗi nghiêm trọng và dừng hoạt động bất ngờ. 
+Điều này không chỉ gây ra trải nghiệm kém cho người dùng mà còn có thể dẫn đến các vấn đề như dữ liệu bị mất hoặc hành vi không mong đợi. 
+Việc không xử lý ngoại lệ đồng nghĩa với việc bất kỳ lỗi nào xảy ra trong quá trình thực thi sẽ làm gián đoạn toàn bộ chương trình, ngăn chặn các đoạn mã tiếp theo được thực hiện.

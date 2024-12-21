@@ -1,0 +1,8 @@
+Điều gì xảy ra khi người dùng chọn "Cancel"? 
+Khi người dùng bấm "Cancel" trong JOptionPane.showConfirmDialog, biến option sẽ có giá trị là JOptionPane.CANCEL_OPTION. 
+Trong đoạn mã hiện tại, chỉ có hai trường hợp được xử lý là JOptionPane.YES_OPTION và trường hợp không phải JOptionPane.YES_OPTION. 
+Do đó, nếu người dùng chọn "Cancel", chương trình sẽ hiểu rằng họ đã chọn "No".
+
+Làm thế nào để tùy chỉnh các tùy chọn cho người dùng, ví dụ chỉ hiển thị hai lựa chọn "Yes" và "No" hoặc "I do" và "I don’t"? 
+Để hộp thoại chỉ hiển thị hai nút "Yes" và "No", bạn cần truyền tham số JOptionPane.YES_NO_OPTION vào cuối hàm JOptionPane.showConfirmDialog.
+ Tương tự, nếu muốn sử dụng văn bản tùy chỉnh như "I do" và "I don’t", bạn có thể sử dụng hàm JOptionPane.showOptionDialog, cho phép tùy chỉnh toàn bộ các nút hiển thị.
